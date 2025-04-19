@@ -9,6 +9,43 @@
 <body>
     
     <div class="container">
+
+        <div class="card-container">
+
+            <div class="front">
+                <div class="image">
+                    <img src="images/chip.png" alt="">
+                    <img src="images/visa.png" alt="">
+                </div>
+                <div class="card-number-box">
+                    ####################
+                </div>
+                <div class="flexbox">
+                    <div class="box">
+                        <span>card holder</span>
+                        <div class="card-holder-name">full name</div>
+                    </div>
+                    <div class="box">
+                        <span>expires</span>
+                        <div class="expiration">
+                            <span class="exp-month">mm</span>
+                            <span class="exp-year">yy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="back">
+                <div class="stripe"></div>
+                <div class="box">
+                    <span>cvv</span>
+                    <div class="cvv-box"></div>
+                    <img src="images/visa.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
 <form action="">
     <div class="inputBox">
         <span>card number</span>
@@ -49,7 +86,7 @@
             <option value="2030">2030</option>
         </select>
     </div>
-    <div class="inputbox">
+    <div class="inputBox">
         <span>cvv</span>
         <input type="text" maxlength="4" class="cvv-input">
     </div>
